@@ -12,7 +12,7 @@ public class QueueTest {
     private static Queue withoutElements;
     private static Queue oneElement;
     private static Queue standart;
-    
+
     @BeforeClass
     public static void setUp() {
         empty = new Queue();

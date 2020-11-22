@@ -1,7 +1,5 @@
 package ua.edu.ucu.collections.immutable;
 
-import java.util.Arrays;
-
 public class ImmutableArrayList implements ImmutableList {
     private final Object[] elements;
     private final int length;
@@ -66,7 +64,8 @@ public class ImmutableArrayList implements ImmutableList {
         }
         Object[] result = new Object[length - 1];
         System.arraycopy(elements, 0, result, 0, index);
-        System.arraycopy(elements, index + 1, result, index, length - index - 1);
+        System.arraycopy(elements, index + 1, result, index,
+                length - index - 1);
 
         return new ImmutableArrayList(result);
     }

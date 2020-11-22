@@ -73,5 +73,5 @@ public class StackTest {
         assertArrayEquals(expectedResultStandart.toArray(), actualResultStandart.toArray());
 
     }
-    
+
 }

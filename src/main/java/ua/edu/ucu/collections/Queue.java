@@ -18,7 +18,7 @@ public class Queue {
     }
 
     public Object peek() {
-        if (elements.length == 0) {
+        if (elements.size() == 0) {
             return null;
         }
         return elements.getFirst();

@@ -1,12 +1,14 @@
 package ua.edu.ucu.collections.immutable;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ImmutableLinkedList implements ImmutableList {
+    public int length;
     private Node first;
     private Map<Node, Node> connections = new LinkedHashMap<>();
-    public int length;
 
     private static class Node {
         private final Object key;
