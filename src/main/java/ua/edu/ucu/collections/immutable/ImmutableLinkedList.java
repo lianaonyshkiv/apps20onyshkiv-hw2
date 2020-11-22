@@ -4,9 +4,12 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import lombok.Getter;
+import lombok.Setter;
 
 public class ImmutableLinkedList implements ImmutableList {
-    public int length;
+    @Getter @Setter
+    private int length;
     private Node first;
     private Map<Node, Node> connections = new LinkedHashMap<>();
 
