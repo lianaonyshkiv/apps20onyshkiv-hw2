@@ -80,7 +80,7 @@ public class ImmutableLinkedListTest {
 
     }
 
-    @Test (expected = ArrayIndexOutOfBoundsException.class)
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void testingSettingError() {
         Object[] expectedResultWithoutEle = new Object[0];
         ImmutableLinkedList actualResultWithoutEle = withoutStartElements.set(0, 3);

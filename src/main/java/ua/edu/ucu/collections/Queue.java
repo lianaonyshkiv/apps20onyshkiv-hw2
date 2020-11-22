@@ -24,13 +24,13 @@ public class Queue {
         return elements.getFirst();
     }
 
-    public Object dequeue(){
+    public Object dequeue() {
         Object result = peek();
         elements.removeFirst();
         return result;
     }
 
-    public void enqueue(Object e){
+    public void enqueue(Object e) {
         elements = elements.addLast(e);
     }
 
@@ -38,5 +38,5 @@ public class Queue {
         return elements;
     }
 
-    
+
 }

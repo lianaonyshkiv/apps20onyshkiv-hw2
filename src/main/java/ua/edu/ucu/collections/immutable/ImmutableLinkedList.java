@@ -3,7 +3,7 @@ package ua.edu.ucu.collections.immutable;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class ImmutableLinkedList implements ImmutableList{
+public class ImmutableLinkedList implements ImmutableList {
     private Node first;
     private Map<Node, Node> connections = new LinkedHashMap<>();
     public int length;
@@ -11,7 +11,7 @@ public class ImmutableLinkedList implements ImmutableList{
     private static class Node {
         private final Object key;
 
-        private Node (Object key) {
+        private Node(Object key) {
             this.key = key;
         }
 
@@ -34,8 +34,7 @@ public class ImmutableLinkedList implements ImmutableList{
     public ImmutableLinkedList(Object[] array) {
         if (array.length == 0) {
             new ImmutableLinkedList();
-        }
-        else {
+        } else {
             first = new Node(array[0]);
             connections.put(first, null);
             length = 1;
@@ -94,8 +93,7 @@ public class ImmutableLinkedList implements ImmutableList{
         if (index == 0) {
             result.connections.put(newNode, result.first);
             result.first = newNode;
-        }
-        else {
+        } else {
             if (length == 0) {
                 return result;
             }
@@ -130,16 +128,14 @@ public class ImmutableLinkedList implements ImmutableList{
             Node newFirst;
             try {
                 newFirst = (Node) result.get(1);
-            }
-            catch (Exception ArrayIndexOutOfBoundsException) {
+            } catch (Exception ArrayIndexOutOfBoundsException) {
                 result.first = null;
                 result.length -= 1;
                 result.connections.remove(result.get(index));
                 return result;
             }
             result.first = newFirst;
-        }
-        else {
+        } else {
             Node previous = (Node) result.get(index - 1);
             result.connections.put(previous, (Node) result.get(index + 1));
         }
@@ -157,8 +153,7 @@ public class ImmutableLinkedList implements ImmutableList{
         Node newNode = new Node(e);
         if (index == 0) {
             result.first = newNode;
-        }
-        else {
+        } else {
             result.connections.put((Node) result.get(index - 1), newNode);
             result.connections.put(newNode, (Node) result.get((index + 1)));
             result.connections.remove(result.get(index));

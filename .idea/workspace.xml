@@ -3,18 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="">
+    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;new&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/immutable/ImmutableArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/immutable/ImmutableArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/immutable/ImmutableLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/immutable/ImmutableLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
       <recent name="ua.edu.ucu.collections.immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImmutableLinkedListTest">
+  <component name="RunManager" selected="JUnit.StackTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.ImmutableLinkedListTest" />
         <item itemvalue="JUnit.ImmutableArrayListTest" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.QueueTest.testEnqueue" />
       </list>
     </recent_temporary>
@@ -156,12 +166,35 @@
       <updated>1605708317739</updated>
       <workItem from="1605708321119" duration="8066000" />
       <workItem from="1605961153095" duration="14949000" />
-      <workItem from="1605977433601" duration="23552000" />
+      <workItem from="1605977433601" duration="25447000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;new&quot;">
+      <created>1606004855918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606004855918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;new&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;new&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1605710712371">
@@ -176,22 +209,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="300" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1605708352440" />
-    <state width="1280" height="303" key="GridCell.Tab.0.bottom" timestamp="1606004083094">
+    <state width="1010" height="303" key="GridCell.Tab.0.bottom" timestamp="1606007388780">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1280" height="303" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606004083094" />
-    <state width="1280" height="303" key="GridCell.Tab.0.center" timestamp="1606004083094">
+    <state width="1010" height="303" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606007388780" />
+    <state width="1010" height="303" key="GridCell.Tab.0.center" timestamp="1606007388780">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1280" height="303" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606004083094" />
-    <state width="1280" height="303" key="GridCell.Tab.0.left" timestamp="1606004083094">
+    <state width="1010" height="303" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606007388780" />
+    <state width="1010" height="303" key="GridCell.Tab.0.left" timestamp="1606007388779">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1280" height="303" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606004083094" />
-    <state width="1280" height="303" key="GridCell.Tab.0.right" timestamp="1606004083094">
+    <state width="1010" height="303" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606007388779" />
+    <state width="1010" height="303" key="GridCell.Tab.0.right" timestamp="1606007388780">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1280" height="303" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606004083094" />
+    <state width="1010" height="303" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606007388780" />
     <state width="2005" height="250" key="GridCell.Tab.1.bottom" timestamp="1605982425619">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -212,6 +245,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1605988746026" />
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606004938739">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606004938739" />
     <state x="1204" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606004373497">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

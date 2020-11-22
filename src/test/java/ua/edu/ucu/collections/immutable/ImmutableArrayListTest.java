@@ -2,6 +2,7 @@ package ua.edu.ucu.collections.immutable;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class ImmutableArrayListTest {
@@ -57,7 +58,7 @@ public class ImmutableArrayListTest {
         assertFalse(standart.isEmpty());
     }
 
-    @Test (expected = ArrayIndexOutOfBoundsException.class)
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void testRemovingError() {
         Object[] expectedResultOneElement = new Object[]{};
         ImmutableArrayList actualResultOneElement = oneElement.remove(0);
@@ -81,7 +82,7 @@ public class ImmutableArrayListTest {
 
     }
 
-    @Test (expected = ArrayIndexOutOfBoundsException.class)
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void testingSettingError() {
         Object[] expectedResultWithoutEle = new Object[0];
         ImmutableArrayList actualResultWithoutEle = withoutStartElements.set(0, 3);
