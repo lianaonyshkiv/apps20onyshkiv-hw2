@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;new&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableLinkedList.java" afterDir="false" />
+    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;commit&quot;">
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +168,7 @@
       <workItem from="1605708321119" duration="8066000" />
       <workItem from="1605961153095" duration="14949000" />
       <workItem from="1605977433601" duration="28197000" />
+      <workItem from="1606010496182" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;new&quot;">
       <created>1606004855918</created>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606009932801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;commit&quot;">
+      <created>1606010700698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606010700698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +233,8 @@
     <MESSAGE value="&quot;new style&quot;" />
     <MESSAGE value="&quot;style&quot;" />
     <MESSAGE value="&quot;new&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;new&quot;" />
+    <MESSAGE value="&quot;commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;commit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1605710712371">

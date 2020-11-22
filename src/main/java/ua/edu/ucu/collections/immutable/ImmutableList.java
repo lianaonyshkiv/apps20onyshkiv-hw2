@@ -1,7 +1,5 @@
 package ua.edu.ucu.collections.immutable;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
-
 // У результаті змін, що призводять на модифікації (зміну стану) колекції
 // має
 // повртатись нова колекція
