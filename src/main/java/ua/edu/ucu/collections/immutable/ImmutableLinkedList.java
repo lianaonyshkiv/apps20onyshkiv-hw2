@@ -130,7 +130,7 @@ public class ImmutableLinkedList implements ImmutableList {
             Node newFirst;
             try {
                 newFirst = (Node) result.get(1);
-            } catch (Exception ArrayIndexOutOfBoundsException) {
+            } catch (ArrayIndexOutOfBoundsException e) {
                 result.first = null;
                 result.length -= 1;
                 result.connections.remove(result.get(index));
