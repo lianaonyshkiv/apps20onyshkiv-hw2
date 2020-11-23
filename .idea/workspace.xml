@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;sdcbk&quot;">
+    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;pom edit&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/collections/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1605977433601" duration="28197000" />
       <workItem from="1606010496182" duration="350000" />
       <workItem from="1606130180131" duration="1270000" />
-      <workItem from="1606152216630" duration="1119000" />
+      <workItem from="1606152216630" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;new&quot;">
       <created>1606004855918</created>
@@ -236,14 +236,7 @@
       <option name="project" value="LOCAL" />
       <updated>1606130614974</updated>
     </task>
-    <task id="LOCAL-00010" summary="&quot;sdcbk&quot;">
-      <created>1606152369538</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1606152369538</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,8 +260,7 @@
     <MESSAGE value="&quot;new&quot;" />
     <MESSAGE value="&quot;commit&quot;" />
     <MESSAGE value="&quot;pom edit&quot;" />
-    <MESSAGE value="&quot;sdcbk&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;sdcbk&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;pom edit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1605710712371">
@@ -323,10 +315,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1159" y="320" key="MultipleFileMergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1606007845791" />
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606152373304">
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606130623436">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606152373304" />
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606130623436" />
     <state x="1204" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606004373497">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
