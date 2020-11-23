@@ -2,7 +2,6 @@ package ua.edu.ucu.collections;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.testng.annotations.BeforeTest;
 import ua.edu.ucu.collections.immutable.ImmutableLinkedList;
 
 import static org.junit.Assert.*;
