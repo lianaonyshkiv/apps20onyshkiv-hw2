@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;commit&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;pom edit&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,18 @@
       <recent name="ua.edu.ucu.collections.immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="JUnit.ImmutableLinkedListTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImmutableArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImmutableCollections" />
       <extension name="coverage">
@@ -136,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImmutableLinkedListTest" />
         <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.ImmutableArrayListTest" />
-        <item itemvalue="JUnit.ImmutableLinkedListTest" />
         <item itemvalue="JUnit.QueueTest.testEnqueue" />
       </list>
     </recent_temporary>
@@ -156,6 +165,7 @@
       <workItem from="1605961153095" duration="14949000" />
       <workItem from="1605977433601" duration="28197000" />
       <workItem from="1606010496182" duration="350000" />
+      <workItem from="1606130180131" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;new&quot;">
       <created>1606004855918</created>
@@ -206,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606010800650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;pom edit&quot;">
+      <created>1606130353512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606130353513</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +246,8 @@
     <MESSAGE value="&quot;style&quot;" />
     <MESSAGE value="&quot;new&quot;" />
     <MESSAGE value="&quot;commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;commit&quot;" />
+    <MESSAGE value="&quot;pom edit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;pom edit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1605710712371">
