@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1907da7-6e07-4c9b-ac6f-c1c687063498" name="Default Changelist" comment="&quot;commit&quot;">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/collections/immutable/ImmutableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.StackTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImmutableArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImmutableCollections" />
       <extension name="coverage">
@@ -168,7 +155,7 @@
       <workItem from="1605708321119" duration="8066000" />
       <workItem from="1605961153095" duration="14949000" />
       <workItem from="1605977433601" duration="28197000" />
-      <workItem from="1606010496182" duration="293000" />
+      <workItem from="1606010496182" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;new&quot;">
       <created>1606004855918</created>
@@ -212,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606010700698</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;commit&quot;">
+      <created>1606010800650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606010800650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +222,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;new style&quot;" />
@@ -249,22 +244,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="300" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1605708352440" />
-    <state width="2005" height="250" key="GridCell.Tab.0.bottom" timestamp="1606010403460">
+    <state width="1010" height="301" key="GridCell.Tab.0.bottom" timestamp="1606010850326">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="250" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606010403460" />
-    <state width="2005" height="250" key="GridCell.Tab.0.center" timestamp="1606010403459">
+    <state width="1010" height="301" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606010850326" />
+    <state width="1010" height="301" key="GridCell.Tab.0.center" timestamp="1606010850326">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="250" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606010403459" />
-    <state width="2005" height="250" key="GridCell.Tab.0.left" timestamp="1606010403459">
+    <state width="1010" height="301" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606010850326" />
+    <state width="1010" height="301" key="GridCell.Tab.0.left" timestamp="1606010850325">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="250" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606010403459" />
-    <state width="2005" height="250" key="GridCell.Tab.0.right" timestamp="1606010403459">
+    <state width="1010" height="301" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606010850325" />
+    <state width="1010" height="301" key="GridCell.Tab.0.right" timestamp="1606010850326">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="250" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606010403459" />
+    <state width="1010" height="301" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606010850326" />
     <state width="2005" height="250" key="GridCell.Tab.1.bottom" timestamp="1606010403460">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -289,10 +284,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1159" y="320" key="MultipleFileMergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1606007845791" />
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606009940887">
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606010805702">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606009940887" />
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606010805702" />
     <state x="1204" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606004373497">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
