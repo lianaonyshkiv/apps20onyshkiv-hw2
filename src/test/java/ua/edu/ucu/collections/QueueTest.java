@@ -1,5 +1,7 @@
 package ua.edu.ucu.collections;
 
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import ua.edu.ucu.collections.immutable.ImmutableLinkedList;
@@ -24,10 +26,10 @@ public class QueueTest {
     public void testPeek() {
         Object expectedResultEmpty = null;
         Object actualResultEmpty = empty.peek();
-        assertNotEquals(expectedResultEmpty, actualResultEmpty);
+        assertEquals(expectedResultEmpty, actualResultEmpty);
         Object expectedResultWithoutElements = null;
         Object actualResultWithoutElements = withoutElements.peek();
-        assertNotEquals(expectedResultWithoutElements, actualResultWithoutElements);
+        assertEquals(expectedResultWithoutElements, actualResultWithoutElements);
         Object expectedResultOneElement = 1;
         Object actualResultOneElement = oneElement.peek();
         assertEquals(expectedResultOneElement, actualResultOneElement);
@@ -40,10 +42,10 @@ public class QueueTest {
     public void testDequeue() {
         Object expectedResultEmpty = null;
         Object actualResultEmpty = empty.dequeue();
-        assertNotEquals(expectedResultEmpty, actualResultEmpty);
+        assertEquals(expectedResultEmpty, actualResultEmpty);
         Object expectedResultWithoutElements = null;
         Object actualResultWithoutElements = withoutElements.dequeue();
-        assertNotEquals(expectedResultWithoutElements, actualResultWithoutElements);
+        assertEquals(expectedResultWithoutElements, actualResultWithoutElements);
         Object expectedResultOneElement = 1;
         Object actualResultOneElement = oneElement.dequeue();
         assertEquals(expectedResultOneElement, actualResultOneElement);
@@ -52,8 +54,8 @@ public class QueueTest {
         assertEquals(expectedResultStandart, actualResultStandart);
     }
 
-    @Test
-    public void testEnqueue() {
+    @AfterClass
+    public static void testEnqueue() {
         ImmutableLinkedList expectedResultEmpty = new ImmutableLinkedList(1);
         empty.enqueue(1);
         ImmutableLinkedList actualResultEmpty = empty.getElements();
