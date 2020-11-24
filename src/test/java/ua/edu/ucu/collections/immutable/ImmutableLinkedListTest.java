@@ -3,6 +3,8 @@ package ua.edu.ucu.collections.immutable;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class ImmutableLinkedListTest {
@@ -56,12 +58,12 @@ public class ImmutableLinkedListTest {
         ImmutableLinkedList actualResultOneElementAll = oneElement.addAll(new Object[]{5});
         assertArrayEquals(expectedResultOneElementAll, actualResultOneElementAll.toArray());
         Object[] expectedResultStandartAll = new Object[]{3, 2, 1, 6, 4, 5, 6};
-        ImmutableLinkedList actualResultStandartAll = standart.addAll(5,new Object[]{5, 6});
+        ImmutableLinkedList actualResultStandartAll = standart.addAll(5, new Object[]{5, 6});
         assertArrayEquals(expectedResultStandartAll, actualResultStandartAll.toArray());
     }
 
     @Test
-    public void testRemoving() {
+    public void testRemovingErrorEl() throws ArrayIndexOutOfBoundsException {
         Object[] expectedResultWithoutEle = new Object[0];
         ImmutableLinkedList actualResultWithoutEle = withoutStartElements.remove(3);
         assertArrayEquals(expectedResultWithoutEle, actualResultWithoutEle.toArray());
@@ -71,6 +73,10 @@ public class ImmutableLinkedListTest {
         Object[] expectedResultOneElement = new Object[]{};
         ImmutableLinkedList actualResultOneElement = oneElement.remove(0);
         assertArrayEquals(expectedResultOneElement, actualResultOneElement.toArray());
+    }
+
+    @Test
+    public void testRemoving() {
         Object[] expectedResultStandart = new Object[]{3, 2, 6, 4};
         ImmutableLinkedList actualResultStandart = standart.remove(2);
         assertArrayEquals(expectedResultStandart, actualResultStandart.toArray());
@@ -82,7 +88,6 @@ public class ImmutableLinkedListTest {
         assertArrayEquals(expectedResultRemoveLast, actualResultRemoveLast.toArray());
         assertTrue(standart.clear().isEmpty());
         assertFalse(standart.isEmpty());
-
     }
 
     @Test
@@ -115,6 +120,24 @@ public class ImmutableLinkedListTest {
         ImmutableLinkedList actualResultStandart = standart.set(9, 7);
         assertArrayEquals(expectedResultStandart, actualResultStandart.toArray());
 
+    }
+
+    @Test
+    public void testingIndexOf() {
+        int expectedResultStandart = 1;
+        System.out.println(Arrays.toString(standart.toArray()));
+        int actualResultStandart = standart.indexOf(2);
+        assertEquals(expectedResultStandart, actualResultStandart);
+    }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void testingIndexOfError() {
+        int expectedResultWithoutEle = 0;
+        int actualResultWithoutEle = withoutStartElements.indexOf(3);
+        assertEquals(expectedResultWithoutEle, actualResultWithoutEle);
+        int expectedResultEmpty = 0;
+        int actualResultEmpty = empty.indexOf(3);
+        assertEquals(expectedResultEmpty, actualResultEmpty);
     }
 
 }

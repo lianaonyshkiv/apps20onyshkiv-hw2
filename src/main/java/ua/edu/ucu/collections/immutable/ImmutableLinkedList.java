@@ -1,16 +1,11 @@
 package ua.edu.ucu.collections.immutable;
 
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import lombok.Getter;
-import lombok.Setter;
 
 public class ImmutableLinkedList implements ImmutableList {
     @Getter
-    @Setter
     private int length;
     private Node first;
     private Map<Node, Node> connections = new LinkedHashMap<>();
@@ -176,10 +171,18 @@ public class ImmutableLinkedList implements ImmutableList {
 
     @Override
     public int indexOf(Object e) {
+        if (length == 0) {
+            throw new ArrayIndexOutOfBoundsException("Empty list");
+        }
         Node[] keys = new Node[connections.size()];
         connections.keySet().toArray(keys);
-        List<Node> list = Arrays.asList(keys);
-        return list.indexOf(new Node(e));
+        List<Object> elements = new ArrayList<>();
+        for (Node el : keys) {
+            elements.add(el.getKey());
+        }
+        elements.add(connections.get(keys[keys.length - 1]));
+
+        return elements.indexOf(e);
     }
 
     @Override
