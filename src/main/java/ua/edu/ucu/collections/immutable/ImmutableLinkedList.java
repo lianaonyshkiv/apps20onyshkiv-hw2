@@ -40,7 +40,8 @@ public class ImmutableLinkedList implements ImmutableList {
 
     public ImmutableLinkedList(Object[] array) {
         if (array.length == 0) {
-            new ImmutableLinkedList();
+            length = 0;
+            first = null;
         } else {
             first = new Node(array[0]);
             connections.put(first, null);

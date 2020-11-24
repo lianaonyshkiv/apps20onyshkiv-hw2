@@ -59,7 +59,7 @@
       <recent name="ua.edu.ucu.collections.immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImmutableArrayListTest">
+  <component name="RunManager" selected="JUnit.ImmutableLinkedListTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -151,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImmutableLinkedListTest" />
         <item itemvalue="JUnit.ImmutableArrayListTest" />
         <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.ImmutableLinkedListTest" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.ImmutableLinkedListTest.testRemoving" />
       </list>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606130614974</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;sdcbk&quot;">
+      <created>1606176152917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606176152917</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +268,8 @@
     <MESSAGE value="&quot;new&quot;" />
     <MESSAGE value="&quot;commit&quot;" />
     <MESSAGE value="&quot;pom edit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;pom edit&quot;" />
+    <MESSAGE value="&quot;sdcbk&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;sdcbk&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1605710712371">
@@ -276,22 +284,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="300" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1606155077095" />
-    <state width="1392" height="300" key="GridCell.Tab.0.bottom" timestamp="1606175804064">
+    <state width="1392" height="300" key="GridCell.Tab.0.bottom" timestamp="1606176134624">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1392" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606175804064" />
-    <state width="1392" height="300" key="GridCell.Tab.0.center" timestamp="1606175804064">
+    <state width="1392" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1606176134624" />
+    <state width="1392" height="300" key="GridCell.Tab.0.center" timestamp="1606176134624">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1392" height="300" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606175804064" />
-    <state width="1392" height="300" key="GridCell.Tab.0.left" timestamp="1606175804064">
+    <state width="1392" height="300" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1606176134624" />
+    <state width="1392" height="300" key="GridCell.Tab.0.left" timestamp="1606176134623">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1392" height="300" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606175804064" />
-    <state width="1392" height="300" key="GridCell.Tab.0.right" timestamp="1606175804064">
+    <state width="1392" height="300" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1606176134623" />
+    <state width="1392" height="300" key="GridCell.Tab.0.right" timestamp="1606176134624">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1392" height="300" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606175804064" />
+    <state width="1392" height="300" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1606176134624" />
     <state width="2005" height="250" key="GridCell.Tab.1.bottom" timestamp="1606010403460">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -316,10 +324,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1159" y="320" key="MultipleFileMergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1606007845791" />
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606154635266">
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2" timestamp="1606176168615">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606154635266" />
+    <state x="953" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1606176168615" />
     <state x="1204" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606004373497">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
