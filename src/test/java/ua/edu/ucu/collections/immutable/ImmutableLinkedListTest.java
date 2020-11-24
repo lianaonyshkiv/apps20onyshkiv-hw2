@@ -33,8 +33,8 @@ public class ImmutableLinkedListTest {
         Object[] expectedResultWithoutEle = new Object[]{3};
         ImmutableLinkedList actualResultWithoutEle = withoutStartElements.add(3);
         assertArrayEquals(expectedResultWithoutEle, actualResultWithoutEle.toArray());
-        Object[] expectedResultEmpty = new Object[]{3};
-        ImmutableLinkedList actualResultEmpty = empty.add(3);
+        Object[] expectedResultEmpty = new Object[]{};
+        ImmutableLinkedList actualResultEmpty = empty.addAll(1, new Object[]{3});
         assertArrayEquals(expectedResultEmpty, actualResultEmpty.toArray());
         Object[] expectedResultOneElement = new Object[]{3, 5};
         ImmutableLinkedList actualResultOneElement = oneElement.add(5);
