@@ -1,8 +1,12 @@
 package ua.edu.ucu.collections.immutable;
 
-import java.util.*;
-
 import lombok.Getter;
+
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
 
 public class ImmutableLinkedList implements ImmutableList {
     @Getter

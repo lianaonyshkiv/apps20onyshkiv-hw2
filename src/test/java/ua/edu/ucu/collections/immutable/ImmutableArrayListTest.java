@@ -3,6 +3,8 @@ package ua.edu.ucu.collections.immutable;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class ImmutableArrayListTest {
@@ -43,6 +45,9 @@ public class ImmutableArrayListTest {
         assertArrayEquals(expectedResultStandart, actualResultStandart.toArray());
         Object[] expectedResultNoItemToAdd = new Object[]{3, 2, 1, 6, 4};
         ImmutableArrayList actualResultNoItemToAdd = standart.add(new Object[0]);
+        assertArrayEquals(expectedResultNoItemToAdd, actualResultNoItemToAdd.toArray());
+        Object[] expectedResultNoItemToAddAll = new Object[]{3, 2, 1, 6, 4};
+        ImmutableArrayList actualResultNoItemToAddAll = standart.addAll(new Object[0]);
         assertArrayEquals(expectedResultNoItemToAdd, actualResultNoItemToAdd.toArray());
     }
 
@@ -95,5 +100,29 @@ public class ImmutableArrayListTest {
         assertArrayEquals(expectedResultStandart, actualResultStandart.toArray());
     }
 
+    @Test
+    public void testingIndexOf() {
+        int expectedResultStandart = 1;
+        System.out.println(Arrays.toString(standart.toArray()));
+        int actualResultStandart = standart.indexOf(2);
+        assertEquals(expectedResultStandart, actualResultStandart);
+    }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void testingIndexOfError() {
+        int expectedResultWithoutEle = 0;
+        int actualResultWithoutEle = withoutStartElements.indexOf(3);
+        assertEquals(expectedResultWithoutEle, actualResultWithoutEle);
+        int expectedResultEmpty = 0;
+        int actualResultEmpty = empty.indexOf(3);
+        assertEquals(expectedResultEmpty, actualResultEmpty);
+    }
+
+    @Test
+    public void testGetting() {
+        assertEquals(standart.get(0), 3);
+        assertEquals(standart.get(4), 4);
+        assertEquals(standart.size(), 5);
+    }
 
 }

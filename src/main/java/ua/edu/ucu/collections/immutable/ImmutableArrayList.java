@@ -59,9 +59,6 @@ public class ImmutableArrayList implements ImmutableList {
         if (index > length - 1) {
             throw new ArrayIndexOutOfBoundsException("False index");
         }
-        if (length == 0) {
-            throw new NegativeArraySizeException("Is empty");
-        }
         Object[] result = new Object[length - 1];
         System.arraycopy(elements, 0, result, 0, index);
         System.arraycopy(elements, index + 1, result, index,
@@ -79,6 +76,9 @@ public class ImmutableArrayList implements ImmutableList {
 
     @Override
     public int indexOf(Object e) {
+        if (length == 0) {
+            throw new ArrayIndexOutOfBoundsException("Empty list");
+        }
         int counter = 0;
         for (Object el : elements) {
             if (el == e) {
