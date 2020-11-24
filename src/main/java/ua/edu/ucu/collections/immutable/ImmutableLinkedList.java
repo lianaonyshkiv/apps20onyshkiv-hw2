@@ -4,11 +4,13 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+
 import lombok.Getter;
 import lombok.Setter;
 
 public class ImmutableLinkedList implements ImmutableList {
-    @Getter @Setter
+    @Getter
+    @Setter
     private int length;
     private Node first;
     private Map<Node, Node> connections = new LinkedHashMap<>();
@@ -117,10 +119,14 @@ public class ImmutableLinkedList implements ImmutableList {
     }
 
     @Override
-    public Object get(int index) {
+    public Node get(int index) {
         Node[] keys = new Node[connections.size()];
         connections.keySet().toArray(keys);
-        return keys[index];
+        try {
+            return keys[index];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            return connections.get(keys[index - 1]);
+        }
     }
 
     @Override
@@ -216,7 +222,7 @@ public class ImmutableLinkedList implements ImmutableList {
     }
 
     public Object getLast() {
-        return get(length - 1);
+        return get(length - 1).getKey();
     }
 
     public ImmutableLinkedList removeFirst() {

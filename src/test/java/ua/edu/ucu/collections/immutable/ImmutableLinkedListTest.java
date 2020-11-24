@@ -46,6 +46,7 @@ public class ImmutableLinkedListTest {
         Object[] expectedResultAddLast = new Object[]{3, 2, 1, 6, 4, 7};
         ImmutableLinkedList actualResultAddLast = standart.addLast(7);
         assertArrayEquals(expectedResultAddLast, actualResultAddLast.toArray());
+
     }
 
     @Test
@@ -65,8 +66,12 @@ public class ImmutableLinkedListTest {
         Object[] expectedResultClearStandart = new Object[]{};
         ImmutableLinkedList actualResultClearStandart = standart.clear();
         assertArrayEquals(expectedResultClearStandart, actualResultClearStandart.toArray());
+        Object[] expectedResultRemoveLast = new Object[]{3, 2, 1, 6};
+        ImmutableLinkedList actualResultRemoveLast = standart.removeLast();
+        assertArrayEquals(expectedResultRemoveLast, actualResultRemoveLast.toArray());
         assertTrue(standart.clear().isEmpty());
         assertFalse(standart.isEmpty());
+
     }
 
     @Test
@@ -80,6 +85,13 @@ public class ImmutableLinkedListTest {
 
     }
 
+    @Test
+    public void testGetting() {
+        assertEquals(standart.getFirst(), 3);
+        assertEquals(standart.getLast(), 4);
+        assertEquals(standart.getLength(), 5);
+    }
+
     @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void testingSettingError() {
         Object[] expectedResultWithoutEle = new Object[0];
@@ -91,6 +103,7 @@ public class ImmutableLinkedListTest {
         Object[] expectedResultStandart = new Object[]{3, 2, 7, 6, 4};
         ImmutableLinkedList actualResultStandart = standart.set(9, 7);
         assertArrayEquals(expectedResultStandart, actualResultStandart.toArray());
+
     }
 
 }
