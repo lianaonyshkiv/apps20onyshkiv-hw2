@@ -1,6 +1,5 @@
 package ua.edu.ucu.collections;
 
-import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
